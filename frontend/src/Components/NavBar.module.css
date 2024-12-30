@@ -1,0 +1,194 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+ 
+  background: rgb(197, 171, 180);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+ 
+}
+
+.Logo {
+  height: 3.5rem;
+}
+.NavContainer{
+  height: 6rem;
+  
+}
+.NavLogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  /* position: relative; */
+ 
+}
+
+.CartBar{
+
+  position: relative;
+  color: white;
+}
+.AmountContainer{
+  position: absolute;
+  top: -0.95rem;
+  right: -0.95rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: hsl(205, 84%, 74%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Amount{
+  text-align: center;
+}
+
+.hamburg{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.ToggleBtn {
+  border-color: transparent;
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: white;
+  transition: all 0.3s linear;
+}
+.ToggleBtn:hover {
+  color: rgb(98, 162, 232);
+  transform: rotate(90deg);
+}
+.ThreeLinks {
+  display: none;
+}
+li {
+  list-style: none;
+}
+.Links{
+  background: white;
+}
+.EachLink {
+color: black;
+  font-size: 1.15rem;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  display: block;
+  transition: all 0.3s linear;
+}
+.EachLink:hover {
+  background-color: hsl(202, 42%, 62%);
+  color: white;
+  padding-left: 1.5rem;
+}
+.active {
+  color: rgb(3, 56, 108);
+}
+.LinksContainer {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+  color: white;
+}
+.FontIcon{
+  color: white;
+  font-size: 1.25rem;
+}
+@media screen and (min-width: 950px) {
+  nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+  .NavContainer {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+   
+  }
+  .hamburg{
+    display: none;
+  }
+  .NavLogo {
+    padding: 0;
+  }
+  .Links {
+    display: flex;
+    background: none;
+  
+  }
+  .ToggleBtn {
+    display: none;
+  }
+
+  .FontIcon {
+    display: inline;
+    font-size: 1.75rem;
+    color: white;
+  }
+  .ThreeLinks,.user,.wishlist {
+    display: flex;
+    gap: 1.5rem;
+    text-align: center;
+    align-items: center;
+  }
+  .CartBar{
+    display: block;
+    position: relative;
+  }
+  .AmountContainer{
+    position: absolute;
+    top: -0.95rem;
+    right: -0.85rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    background: hsl(205, 84%, 74%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Amount{
+    text-align: center;
+  }
+  .LinksContainer {
+    height: auto !important;
+  }
+  .EachLink {
+    padding: 0;
+    margin: 0 0.5rem;
+    color: white;
+  }
+  .EachLink:hover {
+    padding: 0;
+    background: transparent;
+    transform: scaleX(1.1);
+  }
+  .active {
+    color: rgb(3, 56, 108);
+  }
+  .user{
+    cursor: pointer;
+ 
+  }
+ .logout{
+  color: black;
+ }
+
+}

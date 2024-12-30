@@ -1,0 +1,17 @@
+  *{
+    color: black;
+    box-sizing: border-box;
+  }
+@import './Components/NavBar.module.css';
+@import './Components/Profile.module.css';
+@import './Components/Mens.module.css';
+@import './Components/Hero.module.css';
+@import './Components/FeaturedProducts.module.css';
+@import './Components/Women.module.css';
+@import './Components/CartContainer.module.css';
+@import './Components/CartItem.module.css';
+@import './Components/FooterContent.module.css';
+@import './Components/Filter.module.css';
+@import './Components/MainFilter.module.css';
+@import './Components/SingleItem.module.css';
+@import './Authentication/SignUp.module.css';

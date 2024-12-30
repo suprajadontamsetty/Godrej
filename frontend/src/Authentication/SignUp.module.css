@@ -1,0 +1,16 @@
+.formLayout{
+
+  height: 99vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mainForm{
+   width: 22.5rem;
+  border: 1px solid grey;
+  padding: 1.25rem;
+}
+Input{
+    color: black;
+}

@@ -1,0 +1,63 @@
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: rgb(230, 78, 78);
+    padding-left: 5px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 54px;
+    color: rgb(53, 93, 112);
+}
+
+h4 {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+p {
+    font-size: 16px;
+    color: rgb(50, 43, 36);
+    /* margin: 15px 0 20px 0; */
+}
+
+
+.Hero {
+  background-image: url(../../public/images/HeroImgs/HerImg.jpg);
+  height: 37.5rem;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  padding: 7.5rem 8.5rem;
+  
+}
+.HeroContent{
+    position: absolute;
+    top: 5rem;
+    left: 1.5rem;
+    
+}
+.btn{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 1.25rem;
+    background-color: grey;
+    transition: 0.2s ease;
+    margin-top: 1rem;
+}
+.btn:hover{
+   transform: scale(1.1);
+}
+

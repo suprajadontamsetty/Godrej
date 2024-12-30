@@ -1,0 +1,29 @@
+.sideFilter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+}
+.FormControl label{
+    color: rgb(58, 8, 221);
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.searchchoice{
+    border-radius: 15rem;
+    width: 15rem;
+    font-size: 1.15rem;
+    padding: 0.5rem;
+  border: 2px solid black;
+}
+
+@media screen and (max-width: 425px) {
+.FormControl{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+}
